@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: radial-gradient(
+    422px at -10.3% 110.7%,
+    rgb(219, 76, 180) 9.5%,
+    rgb(231, 119, 209) 50.8%,
+    rgb(255, 180, 241) 88.5%
+  );
+  background-size: 2500px;
+  flex-direction: column;
+}
+
+.cake {
+  text-decoration: none;
+  color: aliceblue;
+  border: none;
+  background: #ffb4f1;
+  font-size: 100px;
+}
+.cake:hover {
+  cursor: pointer;
+}
+
+.clickon {
+  color: aliceblue;
+  opacity: 0.5;
+}
