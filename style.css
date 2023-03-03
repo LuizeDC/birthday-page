@@ -4,13 +4,8 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: radial-gradient(
-    422px at -10.3% 110.7%,
-    rgb(219, 76, 180) 9.5%,
-    rgb(231, 119, 209) 50.8%,
-    rgb(255, 180, 241) 88.5%
-  );
-  background-size: 2500px;
+  background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-size: 1600px;
   flex-direction: column;
 }
 
@@ -18,7 +13,7 @@ body {
   text-decoration: none;
   color: aliceblue;
   border: none;
-  background: #ffb4f1;
+  background: none;
   font-size: 100px;
 }
 .cake:hover {
@@ -28,4 +23,93 @@ body {
 .clickon {
   color: aliceblue;
   opacity: 0.5;
+}
+
+.bodyInvite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to top, #a439d6 0%, #d84bb5 100%);
+  background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-size: 1600px;
+  flex-direction: column;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 10px auto;
+  width: 100%;
+  padding: 1cm;
+  border: 1px solid 2% #dae2f8;
+  border-radius: 2px;
+  box-shadow: 10px 10px 10px 5px rgba(82, 12, 76, 0.27);
+}
+
+h1 {
+  color: #e22cd3;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 3px 3px 6px rgb(231, 161, 231);
+}
+
+.join {
+  color: #4dd4e0;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 6px rgb(143, 208, 216);
+}
+
+.pregame {
+  font-size: 18px;
+  color: #f850d9;
+  text-shadow: 1px 1px 3px rgb(233, 45, 223);
+  display: block;
+  letter-spacing: 0.2cm;
+  text-align: center;
+}
+
+.home,
+.bar {
+  font-size: 15px;
+  color: #e9c140;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.27);
+  text-align: center;
+}
+
+.celebration {
+  font-size: 18px;
+  color: #f850d9;
+  text-shadow: 1px 1px 3px rgb(233, 45, 223);
+  display: block;
+  text-align: center;
+  letter-spacing: 0.2cm;
+}
+
+button {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #4dd4e0;
+  color: rgb(216, 9, 243);
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  border: #4dd4e0;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px #e607da;
+  text-shadow: 1px 1px 3px rgb(233, 45, 223);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background-color: #e607da;
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px #4dd4e0;
+  text-shadow: 1px 1px 3px rgb(233, 45, 223);
+  opacity: 0.9;
+
+  cursor: pointer;
 }
